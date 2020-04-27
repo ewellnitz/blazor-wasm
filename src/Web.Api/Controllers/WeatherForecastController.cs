@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Common.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Common.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Web.Api.Controllers
 {
@@ -17,7 +16,7 @@ namespace Web.Api.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
