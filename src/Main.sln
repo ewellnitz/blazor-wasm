@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30021.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{EDDE2C8F-B34F-4F23-B3B1-6EB4F2D3EF10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api", "Web.Api\Web.Api.csproj", "{F2FD034F-CAFB-48D7-99A1-D0A9870F5216}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EDDE2C8F-B34F-4F23-B3B1-6EB4F2D3EF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDDE2C8F-B34F-4F23-B3B1-6EB4F2D3EF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDDE2C8F-B34F-4F23-B3B1-6EB4F2D3EF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FD034F-CAFB-48D7-99A1-D0A9870F5216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FD034F-CAFB-48D7-99A1-D0A9870F5216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FD034F-CAFB-48D7-99A1-D0A9870F5216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FD034F-CAFB-48D7-99A1-D0A9870F5216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
