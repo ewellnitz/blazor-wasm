@@ -1,6 +1,6 @@
 using System;
 
-namespace Web.Api
+namespace Shared.Models
 {
     public class WeatherForecast
     {
